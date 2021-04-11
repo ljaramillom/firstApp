@@ -3,10 +3,8 @@ let phrase_2 = prompt('Please, enter other phrase: ');
 let arrayLetters = [];
 
 for(let i=0; i<phrase_1.length; i++) {
-  for(let j=0; j<phrase_2.length; j++) {
-    if(phrase_1[i] === phrase_2[j]){
+    if(phrase_1.includes(phrase_2[i])){
       arrayLetters.push(phrase_1[i]);
-    }
   }
 }
 
