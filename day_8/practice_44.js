@@ -1,3 +1,5 @@
+// Escribe una función llamada multiplicar que reciba un arreglo (de números) y un número. La función debe retornar un nuevo arreglo con cada número multiplicado por segundo número
+
 function multiplicar(arr, num) {
   const arrResult = arr.map(function (elem) {
     return elem*num;

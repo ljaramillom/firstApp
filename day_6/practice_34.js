@@ -1,3 +1,5 @@
+// Escribe una función llamada promedio que reciba un arreglo de números y retorne el promedio los elementos.
+
 function prom(arr) {
   let sum = 0;
   for(let i=0; i<arr.length; i++) {

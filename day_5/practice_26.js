@@ -1,3 +1,5 @@
+// Escribe un programa que le pida una frase al usuario y capitalice cada palabra. 
+
 let phrase = prompt('Please, enter phrase: ');
 
 phrase = phrase.split(' ');

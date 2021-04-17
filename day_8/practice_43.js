@@ -1,3 +1,5 @@
+// Escribe una función llamada posPares que reciba un arreglo y retorne un nuevo arreglo con los valores en las posiciones pares del arreglo que llega como argumento.
+
 function posPares(arr){
   const arrResult = arr.filter(function (elem, i) {
     return i%2===0;

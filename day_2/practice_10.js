@@ -1,3 +1,5 @@
+// El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
+
 const weight = prompt("What's your weight?");
 const tall = prompt("How tall are you?");
 let bmi = parseFloat(weight)/parseFloat(tall)**2;

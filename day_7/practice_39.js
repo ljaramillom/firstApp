@@ -1,3 +1,5 @@
+// Escribe una función llamada frecuencias que reciba un string y retorne un objeto con el número de veces que aparece cada carácter (exceptuando el espacio en blanco)
+
 function frecuencias(str) {
   const obj = new Object();
   const strArr = str.split("");

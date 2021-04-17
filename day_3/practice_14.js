@@ -1,3 +1,5 @@
+// Escribe un programa para la consola que le pida al usuario un número e imprima los números desde 1 hasta el número.
+
 let size = prompt('Please, enter a number: ');
 size = Number(size);
 

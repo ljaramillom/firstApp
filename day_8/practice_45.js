@@ -1,3 +1,5 @@
+// Escribe una función llamada productosBaratos que reciba un arreglo de objetos (que representan productos) y retorne un nuevo arreglo con los nombres de los productos cuyo precio esté entre 5 y 10
+
 function productosBaratos(prods) {
   const arrResult = prods.filter(function (elem) {
     return (elem.precio >= 5 && elem.precio <= 10);

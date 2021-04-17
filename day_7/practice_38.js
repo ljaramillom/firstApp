@@ -1,3 +1,5 @@
+// Escribe una función llamada descifrar que reciba un string y un objeto. Utiliza las propiedades del objeto para reemplazar los caracteres de la cadena y retorna el resultado:
+
 function descifrar(str, obj) {
   const salida = str.split("");
   for(let i=0;i<salida.length;i++){

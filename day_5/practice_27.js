@@ -1,3 +1,5 @@
+// Escribe un programa que le pida una frase al usuario e imprima cada palabra en una nueva línea.
+
 let phrase = prompt('Please, enter phrase: ');
 
 phrase = phrase.split(' ');

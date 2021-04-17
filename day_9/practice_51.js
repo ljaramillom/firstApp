@@ -1,3 +1,5 @@
+// Modifica el ejercicio anterior para que la función max no reciba un arreglo sino un número indeterminado de argumentos
+
 const max = (...arr) => arr.sort((a,b) => b - a)[0];
 
 // cases tests

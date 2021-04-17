@@ -1,3 +1,5 @@
+// Escribe una función llamada pares que reciba un arreglo de números y retorne un nuevo arreglo con los números pares que existen en el arreglo
+
 function pares(arr){
   const arrResult = arr.filter(function (elem) {
     return elem%2===0;

@@ -1,3 +1,5 @@
+// La función calcularColor recibe un número como argumento y retorna un string de acuerdo al número
+
 function calculateColor(num) {
   let color = "";
   if (num === 1) {

@@ -1,3 +1,7 @@
+// Crea una función flecha y asígnala a una variable obtenerImpares. La función debe recibir un arreglo de números y retornar todos los impares.
+
+// Nota: Utiliza el método filter y pásale una función flecha como argumento.
+
 const obtenerImpares = arr => arr.filter(elem => elem % 2 !== 0);
 
 // cases tests

@@ -1,3 +1,5 @@
+// Escribe una función llamada saludar que reciba un objeto que representa una persona y retorne la frase Hola + nombre
+
 
 function hello(obj) {
   let text = 'Hello! ' + obj.name;
