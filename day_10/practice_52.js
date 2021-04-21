@@ -7,7 +7,7 @@ function reducirACero(num) {
   let count = 0;
   let n = num;
 
-  for(let i=num;i>=0;i--){
+  for(let i=num;i>0;i--){
     if (n % 2 === 0) {
       count++;
       n = n / 2;
