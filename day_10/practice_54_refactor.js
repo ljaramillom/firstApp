@@ -29,4 +29,3 @@ const b1 = [
   ["-", "O", "X"]
 ]
 console.log(triqui(b1)) // true
-

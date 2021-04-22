@@ -88,7 +88,6 @@ function triquiResult(board){
  } else {
    return false;
  }
-
 }
 
 // cases tests
@@ -97,7 +96,6 @@ const b1 = [
   ["O", "O", "X"],
   ["-", "O", "X"]
 ]
-console.log('**********')
 console.log(triquiResult(b1)) // true
 
 const b2 = [
@@ -105,8 +103,6 @@ const b2 = [
   ["O", "O", "X"],
   ["-", "O", "X"]
 ]
-
-console.log('**********')
 console.log(triquiResult(b2)) // false
 
 const b3 = [
@@ -114,8 +110,6 @@ const b3 = [
   ["O", "X", "X"],
   ["-", "O", "X"]
 ]
-
-console.log('**********')
 console.log(triquiResult(b3)) // true
 
 
@@ -124,6 +118,4 @@ const b4 = [
   ["O", "O", "X"],
   ["-", "O", "X"]
 ]
-
-console.log('**********')
 console.log(triquiResult(b4)) // false
