@@ -1,3 +1,5 @@
+// Escribir una función llamada triqui que reciba un argumento board (un arreglo de arreglos) y retorne true si hay triqui, false de lo contrario.
+
 function triqui(arr) {
   if(arr[0] === arr[1] && arr[1] === arr[2]){
     return true;
